@@ -6,9 +6,11 @@ class sports(ABC):
     def doing(self):
         pass
 
-    def rest(self):
-        print('needed')
+class runn(sports):
+    def doing(self):
+        print("walk really fast")
 
 
-obj = sports()
+obj = runn()
+obj.doing()
 # sports is a abstract class
